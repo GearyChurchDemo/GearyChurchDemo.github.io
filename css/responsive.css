@@ -1,0 +1,68 @@
+/* Responsive breakpoints */
+
+@media (max-width: 980px) {
+  .nav { padding: 14px 24px; }
+  .nav-links { gap: 18px; }
+
+  section,
+  .hero,
+  .gathering,
+  .give-section,
+  footer,
+  .give-page,
+  .creator-banner,
+  .directions {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .creator-banner::before,
+  .creator-banner::after { display: none; }
+
+  .hero-grid,
+  .welcome-grid,
+  .gathering-grid,
+  .give-section .container,
+  .give-page-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .find-us-grid { grid-template-columns: 1fr; min-height: 0; }
+  .find-us-photo { aspect-ratio: 16/10; }
+  .find-us-text { padding: 64px 24px; }
+
+  .directions-grid { grid-template-columns: 1fr 1fr; }
+
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+
+  .give-aside { position: static; }
+  .give-card { padding: 28px; }
+
+  /* Hide medicine-wheel watermark on small screens */
+  .hero::after { display: none; }
+}
+
+@media (max-width: 620px) {
+  /* Hide nav text links — only brand + Give CTA remain */
+  .nav-links .nav-link { display: none; }
+
+  .directions-grid { grid-template-columns: 1fr; }
+
+  .funds,
+  .amounts { grid-template-columns: 1fr 1fr; }
+
+  .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+
+  .gathering-row {
+    grid-template-columns: 90px 1fr;
+  }
+
+  .gathering-row .time {
+    grid-column: 2;
+  }
+
+  .give-where li { grid-template-columns: 1fr; gap: 4px; }
+
+  .field-row.three { grid-template-columns: 1fr; }
+}

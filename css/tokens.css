@@ -1,0 +1,44 @@
+:root {
+  --bg: #0c0a08;
+  --bg-soft: #15110c;
+  --panel: #1c1812;
+  --panel-2: #251f17;
+  --ink: #f2e8d5;
+  --ink-soft: rgba(242, 232, 213, 0.72);
+  --ink-mute: rgba(242, 232, 213, 0.48);
+  --hairline: rgba(242, 232, 213, 0.12);
+  --hairline-strong: rgba(242, 232, 213, 0.22);
+  --grain-opacity: 0.18;
+  --grain-blend: overlay;
+  --watermark-opacity: 0.045;
+
+  --on-accent: #0c0a08;
+
+  --mw-red: #b03a2e;
+  --mw-yellow: #d9a441;
+  --mw-black: #0a0a0a;
+  --mw-white: #f2e8d5;
+
+  --accent: var(--mw-yellow);
+  --terracotta: #c4654c;
+  --terracotta-deep: #8c3e2a;
+
+  --display: "IM Fell English", "IM Fell DW Pica", Georgia, serif;
+  --serif: "Crimson Pro", "Crimson Text", Georgia, serif;
+  --sans: "Inter Tight", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+.theme-light {
+  --bg: #f6f0e3;
+  --bg-soft: #ede4d0;
+  --panel: #fdf9ed;
+  --panel-2: #e9dfca;
+  --ink: #1c1610;
+  --ink-soft: rgba(28, 22, 16, 0.72);
+  --ink-mute: rgba(28, 22, 16, 0.5);
+  --hairline: rgba(28, 22, 16, 0.14);
+  --hairline-strong: rgba(28, 22, 16, 0.24);
+  --grain-opacity: 0.32;
+  --grain-blend: multiply;
+  --watermark-opacity: 0.08;
+}
